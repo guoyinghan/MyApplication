@@ -25,5 +25,6 @@ public class Application extends android.app.Application {
                 .writeDebugLogs()//写入日志
                 .build();
         ImageLoader.getInstance().init(build);
+
     }
 }
